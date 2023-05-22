@@ -39,4 +39,4 @@ jobs:
           app-name: 'fuctionappwithvnet'
           slot-name: 'Production'
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1B47DB4714A34811A7EE2C1D97F87DFF }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_637E24D892984DCCBEF859A8C483A0E8 }}
